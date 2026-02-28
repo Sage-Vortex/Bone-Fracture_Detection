@@ -1,7 +1,5 @@
 # Bone-Fracture_Detection
 
-# Hybrid Feature Learning and Robust Fracture Classification Pipeline
-
 ## Project Overview
 
 This project implements a hybrid medical image classification framework for automated bone fracture detection using multimodal feature learning and ensemble modeling. The objective is to combine deep convolutional representations with handcrafted texture descriptors to capture complementary structural information present in radiographic imagery. Rather than relying solely on end-to-end deep learning, the pipeline integrates pretrained DenseNet feature extraction with classical computer vision descriptors (SIFT and GLCM) and evaluates how these heterogeneous representations contribute to classification accuracy, robustness, and statistical reliability.
